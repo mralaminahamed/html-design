@@ -162,73 +162,61 @@ div.wpforms-container-full .wpforms-form .choices__input.choices__input--cloned 
 .df_flipbox_container.rotate_left .df_fb_back {
     -webkit-transform: translateX(-100%) rotateY(180deg);
     transform: translateX(-100%) rotateY(180deg);
-    opacity: 0;
 }
 
 .df_flipbox_container.rotate_left.hover .df_fb_front, .df_flipbox_container.rotate_left:hover .df_fb_front {
     -webkit-transform: rotateY(-180deg);
     transform: rotateY(-180deg);
-    opacity: 1;
 }
 
 .df_flipbox_container.rotate_left.hover .df_fb_back, .df_flipbox_container.rotate_left:hover .df_fb_back {
     -webkit-transform: translateX(-100%) rotateY(0);
     transform: translateX(-100%) rotateY(0);
-    opacity: 1;
 }
 
 .df_flipbox_container.rotate_right .df_fb_back {
     -webkit-transform: translateX(-100%) rotateY(-180deg);
     transform: translateX(-100%) rotateY(-180deg);
-    opacity: 0;
 }
 
 .df_flipbox_container.rotate_right.hover .df_fb_front, .df_flipbox_container.rotate_right:hover .df_fb_front {
     -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
-    opacity: 1;
 }
 
 .df_flipbox_container.rotate_right.hover .df_fb_back, .df_flipbox_container.rotate_right:hover .df_fb_back {
     -webkit-transform: translateX(-100%) rotateY(0);
     transform: translateX(-100%) rotateY(0);
-    opacity: 1;
 }
 
 .df_flipbox_container.rotate_up .df_fb_back {
     -webkit-transform: translatex(-100%) rotateX(-180deg);
     transform: translatex(-100%) rotateX(-180deg);
-    opacity: 0;
 }
 
 .df_flipbox_container.rotate_up.hover .df_fb_front, .df_flipbox_container.rotate_up:hover .df_fb_front {
     -webkit-transform: rotateX(180deg);
     transform: rotateX(180deg);
-    opacity: 1;
 }
 
 .df_flipbox_container.rotate_up.hover .df_fb_back, .df_flipbox_container.rotate_up:hover .df_fb_back {
     -webkit-transform: translatex(-100%) rotateX(0);
     transform: translatex(-100%) rotateX(0);
-    opacity: 1;
 }
 
 .df_flipbox_container.rotate_down .df_fb_back {
     -webkit-transform: translatex(-100%) rotateX(180deg);
     transform: translatex(-100%) rotateX(180deg);
-    opacity: 0;
 }
 
 .df_flipbox_container.rotate_down.hover .df_fb_front, .df_flipbox_container.rotate_down:hover .df_fb_front {
     -webkit-transform: rotateX(-180deg);
     transform: rotateX(-180deg);
-    opacity: 1;
 }
 
 .df_flipbox_container.rotate_down.hover .df_fb_back, .df_flipbox_container.rotate_down:hover .df_fb_back {
     -webkit-transform: translatex(-100%) rotateX(0);
     transform: translatex(-100%) rotateX(0);
-    opacity: 1;
 }
 
 .df_flipbox_container.rotate.fb_floating_content .df_fb_back, .df_flipbox_container.rotate.fb_floating_content .df_fb_front {
@@ -248,124 +236,105 @@ div.wpforms-container-full .wpforms-form .choices__input.choices__input--cloned 
     -webkit-transform: translateX(-100%);
     transform: translateX(-100%);
     z-index: 2;
-    opacity: 1;
 }
 
 .df_flipbox_container.slide.slide_right .df_fb_back {
     -webkit-transform: translateX(-200%);
     transform: translateX(-200%);
-    opacity: 0;
 }
 
 .df_flipbox_container.slide.slide_right.hover .df_fb_back, .df_flipbox_container.slide.slide_right:hover .df_fb_back {
     -webkit-transform: translateX(-100%);
     transform: translateX(-100%);
     z-index: 2;
-    opacity: 1;
 }
 
 .df_flipbox_container.slide.slide_up .df_fb_back {
     -webkit-transform: translateX(-100%) translateY(100%);
     transform: translateX(-100%) translateY(100%);
-    opacity: 0;
 }
 
 .df_flipbox_container.slide.slide_up.hover .df_fb_back, .df_flipbox_container.slide.slide_up:hover .df_fb_back {
     -webkit-transform: translateX(-100%) translateY(0);
     transform: translateX(-100%) translateY(0);
     z-index: 2;
-    opacity: 1;
 }
 
 .df_flipbox_container.slide.slide_down .df_fb_back {
     -webkit-transform: translateX(-100%) translateY(-100%);
     transform: translateX(-100%) translateY(-100%);
-    opacity: 0;
 }
 
 .df_flipbox_container.slide.slide_down.hover .df_fb_back, .df_flipbox_container.slide.slide_down:hover .df_fb_back {
     -webkit-transform: translateX(-100%) translateY(0);
     transform: translateX(-100%) translateY(0);
     z-index: 2;
-    opacity: 1;
 }
 
 .df_flipbox_container.zoom.zoom_center .df_fb_front {
     -webkit-transform: scale(1);
     transform: scale(1);
     z-index: 1;
-    opacity: 0;
 }
 
 .df_flipbox_container.zoom.zoom_center .df_fb_back {
     -webkit-transform: translateX(-100%) scale(0);
     transform: translateX(-100%) scale(0);
-    opacity: 0;
     z-index: 0
 }
 
 .df_flipbox_container.zoom.zoom_center.hover .df_fb_front, .df_flipbox_container.zoom.zoom_center:hover .df_fb_front {
     -webkit-transform: scale(0);
     transform: scale(0);
-    opacity: 0
 }
 
 .df_flipbox_container.zoom.zoom_center.hover .df_fb_back, .df_flipbox_container.zoom.zoom_center:hover .df_fb_back {
     -webkit-transform: translateX(-100%) scale(1);
     transform: translateX(-100%) scale(1);
-    opacity: 1
 }
 
 .df_flipbox_container.zoom.zoom_left .df_fb_front {
     -webkit-transform: translateX(0) scale(1);
     transform: translateX(0) scale(1);
     z-index: 1;
-    opacity: 0;
 }
 
 .df_flipbox_container.zoom.zoom_left .df_fb_back {
     -webkit-transform: translateX(-145%) scale(0);
     transform: translateX(-145%) scale(0);
-    opacity: 0;
     z-index: 0
 }
 
 .df_flipbox_container.zoom.zoom_left.hover .df_fb_front, .df_flipbox_container.zoom.zoom_left:hover .df_fb_front {
     -webkit-transform: translateX(-45%) scale(0);
     transform: translateX(-45%) scale(0);
-    opacity: 1;
 }
 
 .df_flipbox_container.zoom.zoom_left.hover .df_fb_back, .df_flipbox_container.zoom.zoom_left:hover .df_fb_back {
     -webkit-transform: translateX(-100%) scale(1);
     transform: translateX(-100%) scale(1);
-    opacity: 1
 }
 
 .df_flipbox_container.zoom.zoom_right .df_fb_front {
     -webkit-transform: translateX(0) scale(1);
     transform: translateX(0) scale(1);
     z-index: 1;
-    opacity: 0;
 }
 
 .df_flipbox_container.zoom.zoom_right .df_fb_back {
     -webkit-transform: translateX(-45%) scale(0);
     transform: translateX(-45%) scale(0);
-    opacity: 0;
     z-index: 0
 }
 
 .df_flipbox_container.zoom.zoom_right.hover .df_fb_front, .df_flipbox_container.zoom.zoom_right:hover .df_fb_front {
     -webkit-transform: translateX(45%) scale(0);
     transform: translateX(45%) scale(0);
-    opacity: 0
 }
 
 .df_flipbox_container.zoom.zoom_right.hover .df_fb_back, .df_flipbox_container.zoom.zoom_right:hover .df_fb_back {
     -webkit-transform: translateX(-100%) scale(1);
     transform: translateX(-100%) scale(1);
-    opacity: 1
 }
 
 .df_flipbox_container.zoom.zoom_up .df_fb_front {
@@ -377,46 +346,39 @@ div.wpforms-container-full .wpforms-form .choices__input.choices__input--cloned 
 .df_flipbox_container.zoom.zoom_up .df_fb_back {
     -webkit-transform: translateX(-100%) translateY(45%) scale(0);
     transform: translateX(-100%) translateY(45%) scale(0);
-    opacity: 0;
     z-index: 0
 }
 
 .df_flipbox_container.zoom.zoom_up.hover .df_fb_front, .df_flipbox_container.zoom.zoom_up:hover .df_fb_front {
     -webkit-transform: translateY(45%) scale(0);
     transform: translateY(45%) scale(0);
-    opacity: 0
 }
 
 .df_flipbox_container.zoom.zoom_up.hover .df_fb_back, .df_flipbox_container.zoom.zoom_up:hover .df_fb_back {
     -webkit-transform: translateX(-100%) translateY(0) scale(1);
     transform: translateX(-100%) translateY(0) scale(1);
-    opacity: 1
 }
 
 .df_flipbox_container.zoom.zoom_down .df_fb_front {
     -webkit-transform: translateX(0) scale(1);
     transform: translateX(0) scale(1);
     z-index: 1;
-    opacity: 0;
 }
 
 .df_flipbox_container.zoom.zoom_down .df_fb_back {
     -webkit-transform: translateX(-100%) translateY(-45%) scale(0);
     transform: translateX(-100%) translateY(-45%) scale(0);
-    opacity: 0;
     z-index: 0
 }
 
 .df_flipbox_container.zoom.zoom_down.hover .df_fb_front, .df_flipbox_container.zoom.zoom_down:hover .df_fb_front {
     -webkit-transform: translateY(-45%) scale(0);
     transform: translateY(-45%) scale(0);
-    opacity: 0
 }
 
 .df_flipbox_container.zoom.zoom_down.hover .df_fb_back, .df_flipbox_container.zoom.zoom_down:hover .df_fb_back {
     -webkit-transform: translateX(-100%) translateY(0) scale(1);
     transform: translateX(-100%) translateY(0) scale(1);
-    opacity: 1
 }
 
 .df_flipbox_container.fade .df_fb_front {
