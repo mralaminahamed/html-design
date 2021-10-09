@@ -26,13 +26,16 @@ div {
     background: transparent;
 }
 
-.et_pb_gutters2 .et_pb_column, .et_pb_gutters2.et_pb_row .et_pb_column {
-    margin-right: 3%;
+@media (min-width: 981px) {
+    .et_pb_gutters2 .et_pb_column_1_4, .et_pb_gutters2.et_pb_row .et_pb_column_1_4 {
+        width: 22.75%;
+    }
+    .et_pb_gutters2 .et_pb_column, .et_pb_gutters2.et_pb_row .et_pb_column {
+        margin-right: 3%;
+    }
 }
 
-.et_pb_row .et_pb_column {
-    width: 25%;
-}
+
 
 .et_pb_column, .et_pb_row, .et_pb_inner {
     background-size: cover;
