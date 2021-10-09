@@ -30,6 +30,10 @@ div {
     margin-right: 3%;
 }
 
+.et_pb_row .et_pb_column {
+    width: 25%;
+}
+
 .et_pb_column, .et_pb_row, .et_pb_inner {
     background-size: cover;
     background-position: 50%;
