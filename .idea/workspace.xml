@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5309e762-26d6-4116-ad11-03c020f6534f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/flipbox/flipbox-02.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flipbox/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flipbox/style.main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flipbox.html" beforeDir="false" afterPath="$PROJECT_DIR$/flipbox/flipbox.html" afterDir="false" />
-    </list>
+    <list default="true" id="5309e762-26d6-4116-ad11-03c020f6534f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,7 +53,7 @@
       <workItem from="1633580039294" duration="23000" />
       <workItem from="1633580772630" duration="1550000" />
       <workItem from="1633584757598" duration="1181000" />
-      <workItem from="1633611834991" duration="548000" />
+      <workItem from="1633611834991" duration="584000" />
     </task>
     <servers />
   </component>
