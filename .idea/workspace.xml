@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5309e762-26d6-4116-ad11-03c020f6534f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flip-box/css/diviflash.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/runtime.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/runtime.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flip-box/flip-box-02.html" beforeDir="false" afterPath="$PROJECT_DIR$/flip-box/flip-box-02.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flip-box/flip-box-diviflash.html" beforeDir="false" afterPath="$PROJECT_DIR$/flip-box/flip-box-diviflash.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +69,7 @@
       <workItem from="1633584757598" duration="1181000" />
       <workItem from="1633611834991" duration="548000" />
       <workItem from="1633621191948" duration="10375000" />
-      <workItem from="1633754132221" duration="8126000" />
+      <workItem from="1633754132221" duration="9637000" />
     </task>
     <servers />
   </component>
