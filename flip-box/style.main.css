@@ -294,7 +294,6 @@ div.wpforms-container-full .wpforms-form .choices__input.choices__input--cloned 
     -webkit-transform: scale(1);
     transform: scale(1);
     z-index: 1;
-    opacity: 0
 }
 
 .df_flipbox_container.zoom.zoom_center .df_fb_back {
@@ -320,7 +319,6 @@ div.wpforms-container-full .wpforms-form .choices__input.choices__input--cloned 
     -webkit-transform: translateX(0) scale(1);
     transform: translateX(0) scale(1);
     z-index: 1;
-    opacity: 0
 }
 
 .df_flipbox_container.zoom.zoom_left .df_fb_back {
@@ -346,7 +344,6 @@ div.wpforms-container-full .wpforms-form .choices__input.choices__input--cloned 
     -webkit-transform: translateX(0) scale(1);
     transform: translateX(0) scale(1);
     z-index: 1;
-    opacity: 0
 }
 
 .df_flipbox_container.zoom.zoom_right .df_fb_back {
@@ -397,7 +394,6 @@ div.wpforms-container-full .wpforms-form .choices__input.choices__input--cloned 
     -webkit-transform: translateX(0) scale(1);
     transform: translateX(0) scale(1);
     z-index: 1;
-    opacity: 0
 }
 
 .df_flipbox_container.zoom.zoom_down .df_fb_back {

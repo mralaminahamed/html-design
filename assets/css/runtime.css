@@ -46,10 +46,12 @@ a, a:hover, a:active, a:visited {
     text-decoration: none;
     -webkit-text-decoration-style: unset;
 }
-
-article .container ul {
+article .container {
     margin: 50px auto 0;
     width: 1200px;
+}
+
+article .container ul {
     list-style: none;
     text-align: left;
 }
