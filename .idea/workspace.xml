@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5309e762-26d6-4116-ad11-03c020f6534f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/flipbox/canvas.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flipbox/facebook-brands.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flipbox/flipbox-02-backup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flipbox/css/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flipbox/css/main.backup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flipbox/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flipbox/flipbox-diviflash.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/html-design.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/html-design.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flipbox/flipbox-02.html" beforeDir="false" afterPath="$PROJECT_DIR$/flipbox/flipbox-02.html" afterDir="false" />
     </list>
@@ -69,6 +72,7 @@
       <workItem from="1633584757598" duration="1181000" />
       <workItem from="1633611834991" duration="548000" />
       <workItem from="1633621191948" duration="10375000" />
+      <workItem from="1633754132221" duration="3226000" />
     </task>
     <servers />
   </component>

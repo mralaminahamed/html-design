@@ -1,0 +1,15 @@
+.facebook .flip-box .flip-box-front {
+    background-image: linear-gradient(140deg,#09a5f9 0%,#2352af 100%);
+}
+
+.twitter .flip-box .flip-box-front {
+    background-image: linear-gradient(140deg,#19E3FC 0%,#0190F4 100%);
+}
+
+.youtube .flip-box .flip-box-front {
+    background-image: linear-gradient(140deg,#F7783B 0%,#DC1B1C 100%);
+}
+
+.instagram .flip-box .flip-box-front {
+    background-image: linear-gradient(140deg,#FD9A30 0%,#B64DC1 100%);
+}
