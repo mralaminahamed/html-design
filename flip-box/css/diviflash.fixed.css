@@ -1,0 +1,285 @@
+
+body {
+    font-family: Open Sans,Arial,sans-serif;
+    font-size: 14px;
+    color: #666;
+    background-color: #fff;
+    line-height: 1.7em;
+    font-weight: 500;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.et_pb_row {
+    width: 100%;
+    display: block;
+}
+
+.et_pb_column_1_4 {
+    width: 22.75%;
+    float: left;
+    margin-right: 10px;
+}
+
+.et_pb_column_1_4:last-child {
+    margin-right: 0;
+}
+
+.difl_flipbox {
+    width: auto;
+    height: auto;
+}
+
+
+/*fixing issue*/
+
+.df_flipbox_container {
+    position: relative;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+}
+
+.df_flipbox_container, .difl_flipbox .df_fb_front, .difl_flipbox .df_fb_back {
+    /*hide back face*/
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+/*add for diviflash internal reason*/
+.df_fb_back, .df_fb_front, .df_flipbox_body, .df_flipbox_container {
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 100%;
+}
+
+
+.df_flipbox_body, .difl_flipbox .df_fb_front, .difl_flipbox .df_fb_back {
+    /*add 3d effect*/
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.df_flipbox_body, .difl_flipbox .df_fb_front, .difl_flipbox .df_fb_back {
+    /*add persepective*/
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+}
+/*end fixing issue*/
+
+/*make 3d effect of flip box*/
+
+/*
+remove for fixing issue
+.df_fb_back, .df_fb_front, .df_flipbox_body {
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    max-width: 100%;
+}
+*/
+
+
+/*issue fix*/
+
+.difl_flipbox .df_fb_front, .difl_flipbox .df_fb_back{
+    transition: opacity 600ms ease-in-out 0ms,transform 600ms ease-in-out 0ms;
+}
+
+.difl_flipbox .df_fb_front, .difl_flipbox .df_fb_back{
+    will-change: transform;
+}
+
+
+.df_flipbox_body .df_fb_back .fb_inner_content,
+.df_flipbox_body .df_fb_front .fb_inner_content {
+    -webkit-transform: translateZ(100px) scale(.9);
+    transform: translateZ(100px) scale(.9)
+}
+
+/*
+we fetch an issue that make back side to up (current issue)
+
+1. we can fix with add will-change:transform; in front and back slide
+2. we can fix with add previous definitions
+3. we can fix with declare transform:translateZ(0) in fb_inner class
+
+*/
+
+/*end issue fix*/
+
+/*
+remove for fixing issue
+.difl_flipbox .df_flipbox_body, .difl_flipbox .df_fb_front, .difl_flipbox .df_fb_back{
+    transition: opacity 600ms ease-in-out 0ms,transform 600ms ease-in-out 0ms;
+}
+.df_flipbox_body .df_fb_back .fb_inner_content,
+.df_flipbox_body .df_fb_front .fb_inner_content {
+    -webkit-transform: translateZ(100px) scale(.9);
+    transform: translateZ(100px) scale(.9)
+}*/
+
+/*
+remove for fixing issue
+.df_flipbox_container {
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-transition: z-index, -webkit-transform .3s;
+    transition: z-index, transform .3s, -webkit-transform .3s;
+    text-decoration: none;
+    z-index: 0;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+}*/
+
+.difl_flipbox_15 .df_fb_front .fb_inner {
+    background-image: url("../images/1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+
+.df_fb_back .fb_inner, .df_fb_front .fb_inner {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    border-style: solid;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.df_fb_back, .df_fb_back .fb_inner, .df_fb_front, .df_fb_front .fb_inner {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    min-width: 100%;
+    border-width: 0;
+}
+
+
+.difl_flipbox_15 .df_fb_front .df_fb_image_container img {
+    max-width: 58%!important;
+}
+.df_fb_image_container img {
+    vertical-align: top;
+}
+.df_fb_back, .df_fb_button, .df_fb_front, .df_fb_image_container img {
+    border-style: solid;
+    border-width: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.difl_flipbox_15 .df_flipbox_container {
+    height: 400px!important;
+}
+
+
+.difl_flipbox_15 .df_fb_back .fb_inner {
+    background-image: url("../images/1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-right: 30px!important;
+    padding-left: 30px!important;
+    align-items: center;
+}
+
+.difl_flipbox_15 .df_fb_back .title {
+    font-family: 'Raleway',Helvetica,Arial,Lucida,sans-serif!important;
+    font-weight: 700!important;
+    text-transform: uppercase!important;
+    color: #ffffff!important;
+    text-align: center!important;
+}
+
+/*copy from divi*/
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
+    padding-bottom: 10px;
+    line-height: 1em;
+    font-weight: 500;
+}
+
+/*copy from divi*/
+.et_pb_column_1_4 h4 {
+    font-size: 18px;
+}
+
+
+.difl_flipbox_15 .df_fb_back .fb-text {
+    font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif!important;
+    font-weight: 300!important;
+    font-size: 16px!important;
+    color: #ffffff!important;
+    text-align: center!important;
+}
+
+
+
+.difl_flipbox_15 .df_fb_back .df_fb_button_wrapper {
+    margin-top: 42px!important;
+    text-align: center;
+}
+
+.difl_flipbox_15 .df_fb_back .df_fb_button {
+    color: #FFFFFF!important;
+}
+.difl_flipbox_15 .df_fb_button {
+    border-radius: 44px 44px 44px 44px;
+    overflow: hidden;
+    border-color: #FFFFFF;
+}
+.df_fb_back, .df_fb_button, .df_fb_front, .df_fb_image_container img {
+    border-style: solid;
+    border-width: 0;
+}
+.df_fb_button {
+    display: inline-block;
+    padding: 7px 15px;
+    font-size: 16px;
+}
+a, a:hover {
+    text-decoration: none;
+}
+a {
+    color: #2ea3f2;
+}
+
+
+/*hover effect*/
+/*front*/
+.df_flipbox_container.rotate_left.hover .df_fb_front, .df_flipbox_container.rotate_left:hover .df_fb_front {
+    -webkit-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+}
+
+.difl_flipbox_15 .df_fb_back .fb_inner:hover, .difl_flipbox_15 .df_fb_front .fb_inner:hover {
+    background-image: url("../images/1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/*back*/
+.df_flipbox_container.rotate_left .df_fb_back {
+    -webkit-transform: translateX(-100%) rotateY(180deg);
+    transform: translateX(-100%) rotateY(180deg);
+}
+.df_flipbox_container.rotate_left.hover .df_fb_back, .df_flipbox_container.rotate_left:hover .df_fb_back {
+    -webkit-transform: translateX(-100%) rotateY(0);
+    transform: translateX(-100%) rotateY(0);
+}
+
+.difl_flipbox_15 .df_fb_back .fb_inner:hover, .difl_flipbox_15 .df_fb_front .fb_inner:hover {
+    background-image: url(https://diviedge.com/demo-diviflash/wp-content/uploads/2020/10/1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

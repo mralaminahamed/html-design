@@ -103,6 +103,11 @@ h4 {
 .flip-box-container .flip-box-inner .flip-box-inner-wrapper {
     position: relative;
     -webkit-transform: translateZ(0);
+}
+
+.flip-box-container .flip-box-inner, .flip-box-container .flip-box-inner .flip-box-inner-wrapper,
+.flip-box-container .flip-box-inner .flip-box-front,
+.flip-box-container .flip-box-inner .flip-box-back {
     -webkit-perspective: 1000px;
     perspective: 1000px
 }
@@ -128,8 +133,6 @@ h4 {
     transform-origin: 50% 50%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    -webkit-perspective: 1000px;
-    perspective: 1000px
 }
 
 .flip-box-container .flip-box-inner .flip-box-front {
