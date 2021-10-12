@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5309e762-26d6-4116-ad11-03c020f6534f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/textarea/datatable.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5309e762-26d6-4116-ad11-03c020f6534f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,7 +36,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/flipbox" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lastest.mishusoft.com" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -69,6 +66,7 @@
       <workItem from="1633754132221" duration="10852000" />
       <workItem from="1633840321584" duration="8051000" />
       <workItem from="1633856099981" duration="37000" />
+      <workItem from="1633930169857" duration="121000" />
     </task>
     <servers />
   </component>
