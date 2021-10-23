@@ -7,10 +7,10 @@
     position: relative;
     display: inline-block;
     width: inherit;
-    height: 300px;
+    height: 200px;
 }
 
-div[class^="align-*"] {
+[class^="align-*"] {
     position: absolute;
     float: left;
 }
@@ -32,6 +32,60 @@ div[class^="align-*"] {
 .align-center {
     left: 50%;
     right: 50%;
+    float: left;
+    position: absolute;
+}
+
+
+a, a:hover, a:visited, a:focus {
+    text-decoration: none;
+    color: black;
+}
+
+.product {
+    width: 300px;
+    height: 400px;
+    position: relative;
+}
+
+.df-product-outer-wrap, .df-sale-badge-wrapper, .df-product-inner-wrap {
+    width: inherit;
+    height: inherit;
+}
+
+.df-product-inner-wrap, .df-product-image-wrap {
+    position: relative;
+}
+
+.df-product-inner-wrap {
+    max-width: 100%;
+}
+
+
+.df-sale-badge-wrapper {
+    position: relative;
+    max-width: 100%;
+    width: auto;
+}
+
+
+.before-text {
+    left: 0;
+    top: 0;
+    float: left;
+    position: absolute;
+}
+
+.after-text {
+    right: 0;
+    top: 0;
+    float: left;
+    position: absolute;
+}
+
+.center-text {
+    right: 50%;
+    left: 50%;
     float: left;
     position: absolute;
 }
