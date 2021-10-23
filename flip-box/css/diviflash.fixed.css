@@ -40,11 +40,6 @@ body {
     padding: 0;
 }
 
-.df_flipbox_container, .difl_flipbox .df_fb_front, .difl_flipbox .df_fb_back {
-    /*hide back face*/
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-}
 
 /*add for diviflash internal reason*/
 .df_fb_back, .df_fb_front, .df_flipbox_body, .df_flipbox_container {
@@ -54,16 +49,29 @@ body {
 }
 
 
-.df_flipbox_body, .difl_flipbox .df_fb_front, .difl_flipbox .df_fb_back {
+
+/* main solution*/
+ .df_flipbox_container.rotate.fb_floating_content * {
+     /*hide back face*/
+     -webkit-backface-visibility: hidden;
+     backface-visibility: hidden;
     /*add 3d effect*/
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
 }
 
-.df_flipbox_body, .difl_flipbox .df_fb_front, .difl_flipbox .df_fb_back {
+.df_flipbox_container {
     /*add persepective*/
     -webkit-perspective: 1000px;
     perspective: 1000px;
+}
+
+.df_fb_back, .df_fb_front, .df_flipbox_body {
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    max-width: 100%;
 }
 /*end fixing issue*/
 
@@ -108,30 +116,6 @@ we fetch an issue that make back side to up (current issue)
 */
 
 /*end issue fix*/
-
-/*
-remove for fixing issue
-.difl_flipbox .df_flipbox_body, .difl_flipbox .df_fb_front, .difl_flipbox .df_fb_back{
-    transition: opacity 600ms ease-in-out 0ms,transform 600ms ease-in-out 0ms;
-}
-.df_flipbox_body .df_fb_back .fb_inner_content,
-.df_flipbox_body .df_fb_front .fb_inner_content {
-    -webkit-transform: translateZ(100px) scale(.9);
-    transform: translateZ(100px) scale(.9)
-}*/
-
-/*
-remove for fixing issue
-.df_flipbox_container {
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-transition: z-index, -webkit-transform .3s;
-    transition: z-index, transform .3s, -webkit-transform .3s;
-    text-decoration: none;
-    z-index: 0;
-    -webkit-perspective: 1000px;
-    perspective: 1000px;
-}*/
 
 .difl_flipbox_15 .df_fb_front .fb_inner {
     background-image: url("../images/1.jpg");
