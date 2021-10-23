@@ -1,0 +1,37 @@
+.alignment-module {
+    width: 100%;
+    text-align: left;
+}
+
+.alignment-wrapper {
+    position: relative;
+    display: inline-block;
+    width: inherit;
+    height: 300px;
+}
+
+div[class^="align-*"] {
+    position: absolute;
+    float: left;
+}
+
+.align-left {
+    left: 0;
+    top: 0;
+    float: left;
+    position: absolute;
+}
+
+.align-right {
+    top: 0;
+    right: 0;
+    float: left;
+    position: absolute;
+}
+
+.align-center {
+    left: 50%;
+    right: 50%;
+    float: left;
+    position: absolute;
+}
