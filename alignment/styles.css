@@ -48,44 +48,94 @@ a, a:hover, a:visited, a:focus {
     position: relative;
 }
 
-.df-product-outer-wrap, .df-sale-badge-wrapper, .df-product-inner-wrap {
+.df-product-outer-wrap {
     width: inherit;
     height: inherit;
 }
 
-.df-product-inner-wrap, .df-product-image-wrap {
-    position: relative;
+.df-product-image-wrap, .df-sale-badge {
+    width: inherit;
+    height: inherit;
 }
+
+
+.df-sale-badge {
+    display: inline;
+}
+
+.df-product-image-wrap {
+    position: relative;
+    height: 300px;
+}
+
 
 .df-product-inner-wrap {
     max-width: 100%;
 }
 
 
-.df-sale-badge-wrapper {
-    position: relative;
-    max-width: 100%;
-    width: auto;
-}
 
-
-.before-text {
+.top-left-text {
     left: 0;
     top: 0;
     float: left;
     position: absolute;
 }
 
-.after-text {
+.top-right-text {
     right: 0;
     top: 0;
     float: left;
     position: absolute;
 }
 
-.center-text {
+.top-center-text {
     right: 50%;
     left: 50%;
+    float: left;
+    position: absolute;
+}
+
+.center-left-text {
+    left: 0;
+    top: 50%;
+    float: left;
+    position: absolute;
+}
+
+.center-right-text {
+    right: 0;
+    top: 50%;
+    float: left;
+    position: absolute;
+}
+
+.center-center-text {
+    left: 50%;
+    top: 50%;
+    float: left;
+    position: absolute;
+}
+
+
+.bottom-left-text {
+    left: 0;
+    bottom: 0;
+    float: left;
+    position: absolute;
+}
+
+.bottom-right-text {
+    right: 0;
+    bottom: 0;
+    float: left;
+    position: absolute;
+}
+
+.bottom-center-text {
+    right: 50%;
+    left: 50%;
+    bottom:0;
     float: left;
     position: absolute;
 }
